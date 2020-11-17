@@ -18,5 +18,9 @@ var max = function(list){
    return list[0];
 };
 
+https://www.codewars.com/kata/544a54fd18b8e06d240005c0/train/javascript
 
-
+function min(arr, toReturn) {
+  const minVal = Math.min(...arr);
+  return toReturn === 'value' ? minVal : arr.indexOf(minVal); 
+}
