@@ -32,3 +32,6 @@ let wlf= queue.indexOf('wolf');
 return (wlf===(queue.length-1))?"Pls go away and stop eating my sheep":
  `Oi! Sheep number ${queue.length-(wlf+1)}! You are about to be eaten by a wolf!`;
   }
+
+// https://www.codewars.com/kata/57f781872e3d8ca2a000007e/solutions/javascript
+  function maps(x){return x.map(num =>num*2);}
