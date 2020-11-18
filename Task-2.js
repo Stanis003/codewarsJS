@@ -12,11 +12,14 @@ function DNAtoRNA(dna){
 
 //https://www.codewars.com/kata/577a98a6ae28071780000989/train/javascript
 var min = function(list){
-   return list[0];
-};
+    
+    return Math.min(...list);
+}
+
 var max = function(list){
-   return list[0];
-};
+    
+    return Math.max(...list);
+}
 
 //https://www.codewars.com/kata/544a54fd18b8e06d240005c0/train/javascript
 
