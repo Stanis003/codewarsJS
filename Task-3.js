@@ -49,4 +49,13 @@ class Shark extends Animal {
       }
   }
 
-4) 
+4) https://www.codewars.com/kata/training-js-number-12-loop-statement-for-dot-in-and-for-dot-of/train/javascript
+
+function giveMeFive(obj){
+  let arr=[];
+  for (var key in obj){
+    arr.push(key);
+    arr.push(obj[key]);
+    }
+   return arr.filter(a=>{return a.length==5;});
+}
